@@ -5,7 +5,7 @@ public class Test
 		System.out.println("This is new context");
 		Singleton ins1=Singleton.getInstance();
 		Singleton ins2=Singleton.getInstance();
-		System.out.println("has code of Singleton class will not be changed: "+ins1.hashcode()+"--"+ins2.hashcode());
+		System.out.println("has code of Singleton class will not be changed: "+ins1.hashCode()+"--"+ins2.hashCode());
 		System.out.println("has code of Singleton class will not be changed & will be equal: "+ins1.equals(ins2));
 	}
 }
